@@ -1,0 +1,104 @@
+@media (max-width: 1200px) {
+  .grid-two,
+  .grid-two.compact,
+  .grid-three {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-grid.four {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .editor-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .app-shell {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .card,
+  .panel,
+  .stat-card,
+  .editor-card {
+    padding: 16px;
+    border-radius: 20px;
+  }
+
+  .hero-card h1 {
+    font-size: 1.6rem;
+  }
+
+  .section-head,
+  .list-card-top {
+    align-items: flex-start;
+  }
+
+  .control-row {
+    flex-wrap: wrap;
+  }
+
+  .control-row > * {
+    min-width: 0;
+  }
+
+  .control-row input[type="range"] {
+    flex: 1 1 100%;
+  }
+
+  .control input,
+  .control select {
+    width: 100%;
+  }
+
+  .button-row > *,
+  .button-wrap > * {
+    flex: 1 1 calc(50% - 10px);
+    min-width: 0;
+  }
+
+  .bar-row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+  }
+
+  .bar-number {
+    text-align: left;
+  }
+
+  .editor-grid,
+  .stat-grid.four {
+    grid-template-columns: 1fr;
+  }
+
+  .rf-pill {
+    min-width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-shell {
+    padding: 12px;
+  }
+
+  .hero-card h1 {
+    font-size: 1.35rem;
+  }
+
+  .button-row > *,
+  .button-wrap > * {
+    flex-basis: 100%;
+  }
+
+  .mini-map {
+    max-width: 100%;
+  }
+
+  .pill {
+    width: 100%;
+    justify-content: center;
+  }
+}

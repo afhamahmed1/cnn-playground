@@ -1,3 +1,4 @@
+import './responsive.css'
 import React, { Suspense } from 'react'
 
 function outerProduct(a, b) {
