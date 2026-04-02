@@ -1,3 +1,5 @@
+@reference "./globals.css";
+
 @layer components {
   .app-shell {
     @apply min-h-screen bg-background text-foreground;
