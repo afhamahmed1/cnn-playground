@@ -9,11 +9,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "lucide-react": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "shadcn": "latest",
+    "tailwind-merge": "latest"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "latest",
     "@vitejs/plugin-react": "latest",
+    "tailwindcss": "latest",
+    "tw-animate-css": "latest",
     "vite": "latest"
   }
 }
